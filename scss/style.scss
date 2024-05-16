@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import "./normalize.scss";
+@import "./aside.scss";
+@import "./header.scss";
+
+.container {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    :active {
+        color: #ff0000; /* Измените на нужный цвет */
+      }
+  }
+
+body {
+    background-color: #21222d;
+}

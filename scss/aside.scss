@@ -1,0 +1,148 @@
+.aside {
+    padding-top: 15px;
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: #171821;
+    border-right: 2px solid #171821;
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 143%;
+        color: white;
+    }
+    &__nav {
+        margin-top: 10px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    &__footer {
+        width: 100%;
+        height: 76px;
+
+        padding: 16px;
+
+        margin-top: auto;
+
+        background-color: #21222d;
+    }
+
+    .nav {
+        &__item {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: white;
+            padding: 8px 12px 8px 8px;
+            border-radius: 6px;
+            margin-top: 10px;
+
+            // display: flex;
+
+            font-family: "Inter";
+
+            &:hover {
+                transition: 0.2s;
+                background-color: #a9dfd8;
+                color: #21222d;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+                margin-right: 12px;
+            }
+        }
+        &__link {
+            display: flex;
+        }
+    }
+
+    .dropdown {
+        &_show {
+            background-color: #21222d;
+
+            &:hover {
+                color: white;
+                background-color: #21222d;
+            }
+        }
+        &__block {
+            width: 100%;
+            padding: 5px 10px;
+            border-radius: 0 0 8px 8px;
+            margin-left: 20px;
+
+            &_hide {
+                display: none;
+            }
+        }
+        &__link {
+            display: flex;
+
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: white;
+            padding: 8px 12px 8px 8px;
+
+            &:hover {
+                transition: 0.2s;
+                color: #21222d;
+                background-color: #a9dfd8;
+                border-radius: 6px 0 0 6px;
+            }
+
+            img {
+                width: 24px;
+                height: 24px;
+                margin-right: 12px;
+            }
+        }
+    }
+
+    .footer {
+        &__content{ 
+            display: flex;
+            align-items: center;
+        }
+
+        &__logo {
+            margin-right: 15px;
+            width: 48px;
+        }
+
+        &__name {
+            font-family: "Inter";
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 150%;
+            color: white;
+        }
+
+        &__webID {
+            font-family: "Inter";
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 143%;
+            color: #d1d5db;
+        }
+
+
+
+        
+
+    }
+    
+}

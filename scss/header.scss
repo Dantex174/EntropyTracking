@@ -1,0 +1,32 @@
+.header {
+    margin-left: 270px;
+    height: 64px;
+    background-color: #21222d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid #171821;
+
+    &__content {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    &__notification {
+        img {
+            width: 24px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+    }
+
+    &__logo {
+        img {
+            cursor: pointer;
+            width: 48px;
+        }
+    }
+}
